@@ -23,7 +23,7 @@ public void setup() {
 	jse = (JavascriptExecutor)driver;
 	driver.get("https://learn.letskodeit.com/p/practice");
 	driver.manage().window().maximize();
-	driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 }
 @Test
 public void hover() throws Exception {
